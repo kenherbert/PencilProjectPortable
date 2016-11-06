@@ -1,8 +1,5 @@
 # PencilProjectPortable
 
-## Todo
-- Compare against released package to ensure all data is up to date
-
 
 ## Build Process
 1. After installing [Pencil](http://pencil.evolus.vn/Downloads.html), copy the files into the `App/Pencil/` folder
