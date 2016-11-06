@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://pencil/content/mainWindow.xul#main-window"
+                   width="1211"
+                   height="862"
+                   screenX="19"
+                   screenY="6"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://pencil/content/mainWindow.xul">
+    <NC:persist RDF:resource="chrome://pencil/content/mainWindow.xul#main-window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://pencil/content/settingDialog.xul#pencil-settings"
+                   screenX="424"
+                   screenY="227"
+                   lastSelected="pencil-advanced" />
+  <RDF:Description RDF:about="chrome://pencil/content/settingDialog.xul#valueCol"
+                   ordinal="7" />
+  <RDF:Description RDF:about="chrome://pencil/content/settingDialog.xul#lockCol"
+                   ordinal="3" />
+  <RDF:Description RDF:about="chrome://pencil/content/settingDialog.xul#prefCol"
+                   ordinal="1"
+                   sortDirection="ascending" />
+  <RDF:Description RDF:about="chrome://pencil/content/settingDialog.xul#typeCol"
+                   ordinal="5" />
+  <RDF:Description RDF:about="chrome://pencil/content/settingDialog.xul">
+    <NC:persist RDF:resource="chrome://pencil/content/settingDialog.xul#prefCol"/>
+    <NC:persist RDF:resource="chrome://pencil/content/settingDialog.xul#lockCol"/>
+    <NC:persist RDF:resource="chrome://pencil/content/settingDialog.xul#typeCol"/>
+    <NC:persist RDF:resource="chrome://pencil/content/settingDialog.xul#valueCol"/>
+    <NC:persist RDF:resource="chrome://pencil/content/settingDialog.xul#pencil-settings"/>
+  </RDF:Description>
+</RDF:RDF>
